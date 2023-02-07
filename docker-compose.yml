@@ -1,0 +1,8 @@
+version: "3.7"
+
+services:
+  golang_appconfig_example:
+    build: ./app
+    container_name: golang_appconfig
+    volumes:
+      - "./appconfig/:/appconfig"
